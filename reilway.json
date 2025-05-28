@@ -1,0 +1,10 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "image": "prom/prometheus:latest",
+    "command": "--config.file=/app/prometheus.yml"
+  }
+}
+
